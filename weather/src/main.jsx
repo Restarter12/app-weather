@@ -1,10 +1,10 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
 import App from "./App.jsx"
-
-import { configureStore } from "@reduxjs/toolkit"
+import './index.css'
 import { Provider } from "react-redux"
-import { weatherReducer } from "./store/WeatherSlice"
+import { configureStore } from "@reduxjs/toolkit"
+import { weatherReducer } from "./store/weatherSlice"
 
 const store = configureStore({
   reducer: {
